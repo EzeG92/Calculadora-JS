@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Gastos</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <script src="./scripts/bootstrap.min.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/styles/styles.css">
+
+</head>
+
+<body class="body container">
+
+    <header class="row header">
+        <div class="col-12 titulo">
+            <h1> calculadora de gastos </h1>
+        </div>
+    </header>
+
+    <div class="row presupuesto">
+            <p class="col-12" id="presIngresado"></p>
+            <h2 id="totalGral"></h2>
+    </div>
+
+    <div class="row formulario1">
+        <div class="col-4"></div>
+        <form action="" class="col-4" id="formulario1">
+            <label for="" class="labelTitulo"> Alimentos </label>
+            <label for=""> Monto </label>
+            <input type="number" id="alimentos">
+            <label for=""> Lugar </label>
+            <select name="" id="selectA"></select>
+            <input type="submit" value="Agregar gasto" class="botonGastos">
+            <p id="A"></p>
+            <h2 id="totalAlimentos"></h2>
+        </form>
+    </div>
+
+    <div class="row formulario2">
+        <div class="col-4"></div>
+        <form action="" class="col-4" id="formulario2">
+            <label for="" class="labelTitulo"> Salud </label>
+            <label for=""> Monto </label>
+            <input type="number" id="salud">
+            <label for=""> Lugar </label>
+            <select name="" id="selectB"></select>
+            <input type="submit" value="Agregar gasto" class="botonGastos">
+            <p id="B"></p>
+            <h2 id="totalSalud"></h2>
+        </form>
+    </div>
+
+    <div class="row formulario3">
+        <div class="col-4"></div>
+        <form action="" class="col-4" id="formulario3">
+            <label for="" class="labelTitulo"> Transporte </label>
+            <label for=""> Monto </label>
+            <input type="number" id="transporte">
+            <label for=""> Lugar </label>
+            <select name="" id="selectC"></select>
+            <input type="submit" value="Agregar gasto" class="botonGastos">
+            <p id="C"></p>
+            <h2 id="totalTransporte"></h2>
+        </form>
+    </div>
+
+    <div class="row formulario4">
+        <div class="col-4"></div>
+        <form action="" class="col-4" id="formulario4">
+            <label for="" class="labelTitulo"> Salidas </label>
+            <label for=""> Monto </label>
+            <input type="number" id="salidas">
+            <label for=""> Lugar </label>
+            <select name="" id="selectD"></select>
+            <input type="submit" value="Agregar gasto" class="botonGastos">
+            <p id="D"></p>
+            <h2 id="totalSalidas"></h2>
+        </form>
+    </div>
+
+    <div class="row formulario5">
+        <div class="col-4"></div>
+        <form action="" class="col-4" id="formulario5">
+            <label for="" class="labelTitulo"> Otros </label>
+            <label for=""> Monto </label>
+            <input type="number" id="otros">
+            <label for=""> Lugar </label>
+            <select name="" id="selectE"></select>
+            <input type="submit" value="Agregar gasto" class="botonGastos">
+            <p id="E"></p>
+            <h2 id="totalOtros"></h2>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62, 5%;
+}
+
+h2#swal2-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.swal2-popup.swal2-modal.swal2-show {
+    border-radius: 1em;
+}
+
+.swal2-styled.swal2-confirm {
+    border-radius: 1em;
+}
+
+.body {
+background-color: black;
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+}
+
+.labelTitulo {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background-color: white;
+    height: 150px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+
+.presupuesto {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.presupuesto p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+.presupuesto h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: lightcoral;
+}
+
+.botonGastos {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 30px;
+    width: 120px;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 30px;
+    width: 120px;
+}
+
+.formulario1 {
+    background: rgb(112,102,224);
+    background: linear-gradient(90deg, rgba(112,102,224,1) 0%, rgba(167,102,224,1) 100%);
+}
+
+.formulario1 p{
+    display: flex;
+    row-gap: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.formulario1 h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: overline;
+}
+
+.formulario1 form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    row-gap: 5px;
+    margin-top: 20px;
+}
+
+.formulario2{
+    background-color: white;
+}
+
+.formulario2 p{
+    display: flex;
+    row-gap: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.formulario2 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: overline;
+}
+
+.formulario2 form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.formulario3 {
+    background: rgb(112,102,224);
+    background: linear-gradient(90deg, rgba(112,102,224,1) 0%, rgba(167,102,224,1) 100%);
+}
+
+.formulario3 p{
+    display: flex;
+    row-gap: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.formulario3 h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: overline;
+}
+
+.formulario3 form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.formulario4{
+    background-color: white;
+}
+
+.formulario4 p{
+    display: flex;
+    row-gap: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.formulario4 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: overline;
+}
+
+.formulario4 form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.formulario5 {
+    background: rgb(112,102,224);
+    background: linear-gradient(90deg, rgba(112,102,224,1) 0%, rgba(167,102,224,1) 100%);
+
+}
+
+.formulario5 p{
+    display: flex;
+    row-gap: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.formulario5 h2{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: overline;
+}
+
+.formulario5 form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+select{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:500;
+
+}

@@ -1,0 +1,8 @@
+[
+    {"categoria": "alimentos", "lugar1": "Supermercado", "lugar2": "Verduleria", "lugar3": "Almacen", "lugar4": "Kiosco", "lugar5": "Otros"},
+    {"categoria": "salud", "lugar1": "Consultas medicas", "lugar2": "Farmacia", "lugar3": "Estudios", "lugar4": "Otros"},
+    {"categoria": "transporte", "lugar1": "Combustible", "lugar2": "Taxi", "lugar3": "Colectivo", "lugar4": "Otros"},
+    {"categoria": "salidas", "lugar1": "Bar", "lugar2": "Restaurante", "lugar3": "Heladeria", "lugar4": "Otros" },
+    {"categoria": "otros", "lugar1": "Varios" }
+]
+
